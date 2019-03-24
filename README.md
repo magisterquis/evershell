@@ -29,10 +29,10 @@ Example, assuming evershell has been put in `/usr/lib/libinit.so.4`:
 echo /usr/lib/libinit.so.4 >> /etc/ld.so.preload
 ```
 
-### Via GDB
+### GDB
 See https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html
 
-### Via `LD_PRELOAD`
+### `LD_PRELOAD`
 Set the `LD_PRELOAD` environment variable to the path to the library and start
 a normal, long-running process.
 
